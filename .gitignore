@@ -5,3 +5,6 @@ Project Outputs*/
 __Previews/
 *.PrjPcbStructure
 *.bak
+
+# LTSpice
+*.raw
