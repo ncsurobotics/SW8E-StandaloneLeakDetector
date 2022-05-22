@@ -1,0 +1,21 @@
+
+LED Resistor selection:
+================================================================================
+- Recommended LED current (from datasheet) = 60mA
+- Voltage drop is typically 2.2V (1.8 min, 2.6 max)
+- [3V (coincell) - 2.2V] / 60mA = 13.3 Ohms
+- Choose a 20 Ohm Resistor
+- Worst case current is [3V - 1.8V] / 20 Ohms = 60mA (in spec for LED)
+
+
+Battery Life Calculations
+================================================================================
+- Mosfet leakage current is expected to not exceed 15uA according to datasheet
+(actually 11, but 15 is a little bit of an overestiamate).
+- CR2032 is typically 220mAh to 235mAh
+- (220e-3 Ah) / (15e-6 A) = 14666.666667 hours off time = 1.67 years off time
+- When on, approx 60mA consumed by LED + current consumed through leak short 
+and 10K pulldown. Approx 60mA + (3 / 10000)A + (3 / 1e6)A = 60.303mA (approx).
+Above 3 / 1e6 assumes worst case where water is a perfect short between leak_in
+and gnd leading to max current thorough 1M Ohm resistor.
+- (220e-3 Ah) / (60.303e-3 A) = 3.65 hours of LED on time
