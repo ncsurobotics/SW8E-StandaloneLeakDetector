@@ -19,3 +19,6 @@ and 10K pulldown. Approx 60mA + (3 / 10000)A + (3 / 1e6)A = 60.303mA (approx).
 Above 3 / 1e6 assumes worst case where water is a perfect short between leak_in
 and gnd leading to max current thorough 1M Ohm resistor.
 - (220e-3 Ah) / (60.303e-3 A) = 3.65 hours of LED on time
+
+Note: above is for SMD LED. The through hole LED is only 20mA so roughly tripple on-time
+Additionally, if any random LED is used with R5 + J3 this math does not apply (for on-time)
