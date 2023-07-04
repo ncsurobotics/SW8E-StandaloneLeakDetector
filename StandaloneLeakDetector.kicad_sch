@@ -1,0 +1,2007 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c8ccdefd-6234-4ecc-bd85-51bf1773e69d)
+
+  (paper "A")
+
+  (lib_symbols
+    (symbol "StandaloneLeakDetector-altium-import:GND" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "GND" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name 'GND'" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_0"
+        (polyline
+          (pts
+            (xy -2.54 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -3.302)
+            (xy 1.778 -3.302)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -4.064)
+            (xy 1.016 -4.064)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 -4.826)
+            (xy 0.254 -4.826)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_0_1x2 Header" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "CONN HEADER VERT 2POS 2.54MM" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "1x2{space}Header" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_0_1x2 Header_1_0"
+        (circle (center 0 -1.27) (radius 0.762)
+          (stroke (width 0.0001) (type solid))
+          (fill (type color) (color 255 197 26 1))
+        )
+        (circle (center 0 1.27) (radius 0.762)
+          (stroke (width 0.0001) (type solid))
+          (fill (type color) (color 255 197 26 1))
+        )
+        (rectangle (start 2.54 5.08) (end -2.54 -2.54)
+          (stroke (width 0) (type solid))
+          (fill (type background))
+        )
+        (pin passive line (at -10.16 2.54 0) (length 7.62)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -10.16 0 0) (length 7.62)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_0_3bc925449376181038e59eaffc5286c" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "CONN HEADER VERT 2POS 2.54MM" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "FP-TSW-102-07-L-S-MFG" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_0_3bc925449376181038e59eaffc5286c_1_0"
+        (rectangle (start -6.858 -4.318) (end -9.144 -5.842)
+          (stroke (width 0.254) (type solid))
+          (fill (type outline))
+        )
+        (rectangle (start -6.858 0.762) (end -9.144 -0.762)
+          (stroke (width 0.254) (type solid))
+          (fill (type outline))
+        )
+        (rectangle (start -5.08 5.08) (end -10.16 -10.16)
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -6.858 -5.08)
+            (xy -5.08 -5.08)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.858 0)
+            (xy -5.08 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (text "1" (at -6.858 3.048 0)
+          (effects (font (size 1.27 1.27)) (justify right top))
+        )
+        (text "2" (at -6.858 -2.032 0)
+          (effects (font (size 1.27 1.27)) (justify right top))
+        )
+        (pin passive line (at 0 0 180) (length 5.08)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -5.08 180) (length 5.08)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_0_ERJ-6ENF1004V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 1M OHM 1% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_0_ERJ-6ENF1004V_1_0"
+        (polyline
+          (pts
+            (xy -1.778 0.762)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 0.762)
+            (xy -0.508 -0.508)
+            (xy 0.762 0.762)
+            (xy 2.032 -0.508)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_0_ERJ-6ENF20R0V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 20 OHM 1% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_0_ERJ-6ENF20R0V_1_0"
+        (polyline
+          (pts
+            (xy -1.778 0.762)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 0.762)
+            (xy -0.508 -0.508)
+            (xy 0.762 0.762)
+            (xy 2.032 -0.508)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_0_ERJ-6GEYJ510V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 51 OHM 5% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_0_ERJ-6GEYJ510V_1_0"
+        (polyline
+          (pts
+            (xy -1.778 0.762)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 0.762)
+            (xy -0.508 -0.508)
+            (xy 0.762 0.762)
+            (xy 2.032 -0.508)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_0_HLMP-EG15-UX000" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "No Description Available" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED_AVAGO_HLMP_XX15_AVA" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_0_HLMP-EG15-UX000_1_0"
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy 3.48 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.175 0)
+            (xy 3.81 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 -1.905)
+            (xy 6.35 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 1.905)
+            (xy 3.81 -1.905)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 3.175)
+            (xy 6.35 4.445)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 -1.905)
+            (xy 6.35 1.905)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 0)
+            (xy 3.81 1.905)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 0)
+            (xy 7.62 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 4.445)
+            (xy 6.985 3.81)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.985 2.54)
+            (xy 8.255 3.81)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.985 3.81)
+            (xy 8.255 5.08)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 5.08)
+            (xy 8.255 4.445)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 3.81)
+            (xy 8.89 3.175)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 4.445)
+            (xy 8.255 5.08)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 5.08)
+            (xy 7.62 5.08)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 3.175)
+            (xy 10.16 4.445)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 9.525 4.445)
+            (xy 10.16 3.81)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 3.81)
+            (xy 10.16 4.445)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 4.445)
+            (xy 9.525 4.445)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (pin passive line (at 10.16 0 180) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 0 0) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_0_RES_0.5W_THT" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic 0.5W through hole resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "RES_0.5W_THT" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_0_RES_0.5W_THT_1_0"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -2.032 0.762)
+            (xy -1.524 0)
+            (xy -1.016 -0.762)
+            (xy -0.508 0)
+            (xy 0 0.762)
+            (xy 0.508 0)
+            (xy 1.016 -0.762)
+            (xy 1.524 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 4.064 0 180) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_1_ERJ-6ENF1002V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 10K OHM 1% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_1_ERJ-6ENF1002V_1_0"
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0.508 -0.508)
+            (xy -0.762 0.762)
+            (xy 0.508 2.032)
+            (xy 0 2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_2_SMTL6-RC" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMTL6-RC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_2_SMTL6-RC_1_0"
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -1.27 -7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -1.27 -5.08)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -5.08)
+            (xy -1.27 -7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -5.08)
+            (xy -1.27 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 -7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 5.08)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 12.7)
+            (xy 2.54 7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 5.08)
+            (xy -1.27 0)
+            (xy 2.54 2.54)
+            (xy -1.27 5.08)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 12.7)
+            (xy -1.27 7.62)
+            (xy 2.54 10.16)
+            (xy -1.27 12.7)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 0 1))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 15.24) (end -2.54 -10.16)
+          (stroke (width 0) (type solid))
+          (fill (type background))
+        )
+        (pin passive line (at 10.16 10.16 180) (length 7.62)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -8.89 10.16 0) (length 7.62)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 10.16 2.54 180) (length 7.62)
+          (name "3" (effects (font (size 0 0))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -8.89 2.54 0) (length 7.62)
+          (name "4" (effects (font (size 0 0))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 10.16 -5.08 180) (length 7.62)
+          (name "5" (effects (font (size 0 0))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -8.89 -5.08 0) (length 7.62)
+          (name "6" (effects (font (size 0 0))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_2_mirrored_QS6J11TR" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "No Description Available" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TRANS_QS6_ROM" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_2_mirrored_QS6J11TR_1_0"
+        (rectangle (start 33.02 10.16) (end 7.62 -5.08)
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin passive line (at 0 0 0) (length 7.62)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 2.54 0) (length 7.62)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 5.08 0) (length 7.62)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 40.64 5.08 180) (length 7.62)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 40.64 2.54 180) (length 7.62)
+          (name "5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 40.64 0 180) (length 7.62)
+          (name "6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "StandaloneLeakDetector-altium-import:root_3_BAT-HLD-005-THM" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Battery Retainer Coin, 20.0mm 1 Cell PC Pin" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "BAT_BAT-HLD-005-THM" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "root_3_BAT-HLD-005-THM_1_0"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.905 3.81)
+            (xy 1.905 2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 3.175)
+            (xy 1.27 3.175)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (pin passive line (at 0 -7.62 90) (length 5.08)
+          (name "NEG" (effects (font (size 0 0))))
+          (number "N" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 7.62 270) (length 5.08)
+          (name "POS" (effects (font (size 0 0))))
+          (number "P1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 7.62 270) (length 5.08)
+          (name "POS" (effects (font (size 0 0))))
+          (number "P2" (effects (font (size 0 0))))
+        )
+      )
+    )
+  )
+
+  (junction (at 149.86 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 01ea6bc6-1d36-42a2-ac21-f7607d971448)
+  )
+  (junction (at 50.8 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 024553ad-cfc5-4736-97bc-719df4cdca30)
+  )
+  (junction (at 193.04 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 512aa9dd-c5af-451c-89fb-bd097f91629d)
+  )
+  (junction (at 220.98 121.92) (diameter 0) (color 0 0 0 0)
+    (uuid 55f4389e-cdc4-4c14-adcc-b43ac8f6f11e)
+  )
+  (junction (at 175.26 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 65b610d8-6eba-4a09-9cfc-3e3ffb56bb1a)
+  )
+  (junction (at 193.04 121.92) (diameter 0) (color 0 0 0 0)
+    (uuid 875e33a6-ffd5-42f7-8dfb-b62fa18738b1)
+  )
+  (junction (at 83.82 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 9c802b55-df2f-4fdd-8984-37391df14f2c)
+  )
+  (junction (at 220.98 151.13) (diameter 0) (color 0 0 0 0)
+    (uuid ad0e3979-f212-4b84-8ce9-1d296621c0a0)
+  )
+  (junction (at 220.98 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid b4392345-e885-46db-9d59-ed3ab22c3206)
+  )
+  (junction (at 171.45 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid bd671d72-e7ee-4bdf-9273-74f258b416b6)
+  )
+  (junction (at 45.72 93.98) (diameter 0) (color 0 0 0 0)
+    (uuid cfb0ead7-0453-4434-8253-43ca4c2f4580)
+  )
+  (junction (at 220.98 129.54) (diameter 0) (color 0 0 0 0)
+    (uuid ddbd8043-78d8-4b42-8597-bea3127b28dd)
+  )
+  (junction (at 101.6 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid f2f51181-ad40-4cab-89e3-d46ea52f597d)
+  )
+
+  (no_connect (at 106.68 109.22) (uuid 1592df04-f961-4cdc-ac56-283e08265fa7))
+  (no_connect (at 147.32 109.22) (uuid 82ba40ba-ecc5-47d9-b686-a1192b6266d8))
+  (no_connect (at 106.68 111.76) (uuid a17e53a3-b04b-4a20-9b84-6d2d412f8f1a))
+
+  (wire (pts (xy 45.72 66.04) (xy 45.72 93.98))
+    (stroke (width 0.254) (type default))
+    (uuid 03b7ccca-299a-4822-a5c4-95a12fb95957)
+  )
+  (wire (pts (xy 193.04 114.3) (xy 193.04 121.92))
+    (stroke (width 0.254) (type default))
+    (uuid 086cc52b-8ec2-4462-b7ed-08f85601d520)
+  )
+  (wire (pts (xy 45.72 93.98) (xy 45.72 104.14))
+    (stroke (width 0.254) (type default))
+    (uuid 0c164b2c-c35a-4ff0-a53d-c5fe65f20174)
+  )
+  (wire (pts (xy 147.32 111.76) (xy 157.48 111.76))
+    (stroke (width 0.254) (type default))
+    (uuid 1030b625-b872-481f-a8a7-257624737359)
+  )
+  (wire (pts (xy 196.85 151.13) (xy 220.98 151.13))
+    (stroke (width 0.254) (type default))
+    (uuid 13acfd75-0ec3-41de-8717-68e01aa97889)
+  )
+  (wire (pts (xy 101.6 71.12) (xy 50.8 71.12))
+    (stroke (width 0.254) (type default))
+    (uuid 1f67074b-7224-49a0-9701-91e388761bea)
+  )
+  (wire (pts (xy 175.26 105.41) (xy 166.37 105.41))
+    (stroke (width 0.254) (type default))
+    (uuid 201c6686-281e-43ca-bb78-cadf48685a58)
+  )
+  (wire (pts (xy 157.48 91.44) (xy 83.82 91.44))
+    (stroke (width 0.254) (type default))
+    (uuid 298a0d40-5ced-4bad-b28c-6703e7a11a21)
+  )
+  (wire (pts (xy 171.45 114.3) (xy 175.26 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 2c55f653-36b2-41bd-aa1f-88d39437ad4a)
+  )
+  (wire (pts (xy 30.48 93.98) (xy 45.72 93.98))
+    (stroke (width 0.254) (type default))
+    (uuid 306556e7-2ee0-4782-8e10-91cbf63d584b)
+  )
+  (wire (pts (xy 157.48 111.76) (xy 157.48 91.44))
+    (stroke (width 0.254) (type default))
+    (uuid 37b61ad7-7166-4467-adae-6f34f3791d60)
+  )
+  (wire (pts (xy 193.04 121.92) (xy 193.04 129.54))
+    (stroke (width 0.254) (type default))
+    (uuid 3c8bd5eb-caa6-49c0-97d1-e4bcb7da22ae)
+  )
+  (wire (pts (xy 196.85 104.14) (xy 220.98 104.14))
+    (stroke (width 0.254) (type default))
+    (uuid 496cb064-65ff-440a-a78b-81d78abecaa5)
+  )
+  (wire (pts (xy 215.9 129.54) (xy 220.98 129.54))
+    (stroke (width 0.254) (type default))
+    (uuid 5188816e-1290-4baa-8deb-0067871c76ea)
+  )
+  (wire (pts (xy 220.98 129.54) (xy 220.98 151.13))
+    (stroke (width 0.254) (type default))
+    (uuid 53fe6a10-34cc-4792-81c1-9dcdd8b316f9)
+  )
+  (wire (pts (xy 83.82 91.44) (xy 83.82 109.22))
+    (stroke (width 0.254) (type default))
+    (uuid 55ae1d06-9745-46cc-8ac8-0070ed37ee3d)
+  )
+  (wire (pts (xy 101.6 114.3) (xy 106.68 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 55db9800-cf8d-488d-882b-042e46c896e2)
+  )
+  (wire (pts (xy 101.6 109.22) (xy 101.6 71.12))
+    (stroke (width 0.254) (type default))
+    (uuid 5b47c050-41e7-4f8a-8cf1-71a64dd02e5f)
+  )
+  (wire (pts (xy 215.9 114.3) (xy 220.98 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 5e359a71-ee86-4054-8167-ba6ffe68f24e)
+  )
+  (wire (pts (xy 50.8 99.06) (xy 30.48 99.06))
+    (stroke (width 0.254) (type default))
+    (uuid 5f38d196-d840-46d6-a214-4ac234c4500f)
+  )
+  (wire (pts (xy 175.26 114.3) (xy 177.8 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 5fbfc907-95bf-4822-9edd-3f6f96a8a7ed)
+  )
+  (wire (pts (xy 193.04 114.3) (xy 196.85 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 609b4e33-34c1-4061-ba1d-f92d23322aba)
+  )
+  (wire (pts (xy 220.98 121.92) (xy 220.98 129.54))
+    (stroke (width 0.254) (type default))
+    (uuid 709a8d9d-b6f9-4af7-9c53-dbfd80fc1028)
+  )
+  (wire (pts (xy 93.98 109.22) (xy 101.6 109.22))
+    (stroke (width 0.254) (type default))
+    (uuid 8147d4c9-54bc-45bd-86fd-e3388e91a7bc)
+  )
+  (wire (pts (xy 175.26 114.3) (xy 175.26 105.41))
+    (stroke (width 0.254) (type default))
+    (uuid 855d2335-d9ec-483f-9e79-eb86f2d0c78f)
+  )
+  (wire (pts (xy 101.6 109.22) (xy 101.6 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 8c32ae0e-783b-43f4-8435-5636778641d6)
+  )
+  (wire (pts (xy 220.98 151.13) (xy 220.98 158.75))
+    (stroke (width 0.254) (type default))
+    (uuid 94d63839-fa74-499e-8ecc-b0881760ff09)
+  )
+  (wire (pts (xy 149.86 114.3) (xy 171.45 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 9c6af99e-f204-4f64-b3a3-0d07f41e5cb3)
+  )
+  (wire (pts (xy 220.98 104.14) (xy 220.98 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid 9e704b58-66f8-48fb-8ac0-f25afd2ac8e1)
+  )
+  (wire (pts (xy 166.37 105.41) (xy 166.37 93.98))
+    (stroke (width 0.254) (type default))
+    (uuid 9efdd293-7197-48c9-a0c0-26cc9f74704c)
+  )
+  (wire (pts (xy 147.32 114.3) (xy 149.86 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid ae196ab8-a510-4781-81d2-b781ef63f947)
+  )
+  (wire (pts (xy 83.82 109.22) (xy 83.82 119.38))
+    (stroke (width 0.254) (type default))
+    (uuid c260819c-ed7f-402d-a141-529011374043)
+  )
+  (wire (pts (xy 196.85 96.52) (xy 196.85 104.14))
+    (stroke (width 0.254) (type default))
+    (uuid c48e1de8-0c08-4787-b6e6-b30e9c4fa644)
+  )
+  (wire (pts (xy 166.37 93.98) (xy 177.8 93.98))
+    (stroke (width 0.254) (type default))
+    (uuid c60a349c-4dd7-439d-a70a-f4595db0ab9d)
+  )
+  (wire (pts (xy 215.9 121.92) (xy 220.98 121.92))
+    (stroke (width 0.254) (type default))
+    (uuid d0c53015-72b6-451e-bf9d-60c5a1b83e14)
+  )
+  (wire (pts (xy 193.04 121.92) (xy 196.85 121.92))
+    (stroke (width 0.254) (type default))
+    (uuid d3fd0a8c-e51b-406d-9ff3-f564def4b559)
+  )
+  (wire (pts (xy 149.86 114.3) (xy 149.86 119.38))
+    (stroke (width 0.254) (type default))
+    (uuid e439ea57-ebad-452b-8e09-e82b0193d73e)
+  )
+  (wire (pts (xy 29.21 66.04) (xy 45.72 66.04))
+    (stroke (width 0.254) (type default))
+    (uuid e51e73e8-2dde-4b3b-a7ef-a1c21d5a7cb3)
+  )
+  (wire (pts (xy 187.96 114.3) (xy 193.04 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid e53e0ad9-e28e-4164-80a9-6e331a2f63c4)
+  )
+  (wire (pts (xy 176.53 151.13) (xy 171.45 151.13))
+    (stroke (width 0.254) (type default))
+    (uuid e614cf29-8285-4c98-85cd-cbae125767c1)
+  )
+  (wire (pts (xy 186.944 93.98) (xy 196.85 93.98))
+    (stroke (width 0.254) (type default))
+    (uuid e8aadb0a-cc98-4bcf-8fce-5cfa2312071e)
+  )
+  (wire (pts (xy 193.04 129.54) (xy 196.85 129.54))
+    (stroke (width 0.254) (type default))
+    (uuid eb9c5aef-b8bc-4a57-a8a2-7f992872e720)
+  )
+  (wire (pts (xy 220.98 114.3) (xy 220.98 121.92))
+    (stroke (width 0.254) (type default))
+    (uuid f30e9c1e-b9db-43ae-9e1b-841a0116ae1e)
+  )
+  (wire (pts (xy 171.45 151.13) (xy 171.45 114.3))
+    (stroke (width 0.254) (type default))
+    (uuid f6754028-c8ce-47b3-9f98-2e71aabd96ab)
+  )
+  (wire (pts (xy 50.8 71.12) (xy 29.21 71.12))
+    (stroke (width 0.254) (type default))
+    (uuid fb6e0003-2e82-4430-bff2-5d985a257d89)
+  )
+  (wire (pts (xy 50.8 71.12) (xy 50.8 99.06))
+    (stroke (width 0.254) (type default))
+    (uuid fd394297-a583-460e-9d75-1d24f4a99928)
+  )
+
+  (image (at 41.7 160.293) (scale 2.49238)
+    (uuid 8f93c9d3-64e0-4c27-955d-068ad51566cf)
+    (data
+      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
+    )
+  )
+
+  (text "R5 is for any through hole resistor needed for LED on J3"
+    (at 166.37 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 089cf6a1-c60c-4420-9793-bca10251246f)
+  )
+  (text "" (at 124.46 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 108d37c7-6b17-4b03-8e8e-bac87a97150d)
+  )
+  (text "- R3 and D1 are for a surface mount LED" (at 166.37 173.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 14b16cbd-a046-42ac-bb86-c17ca883b3b4)
+  )
+  (text "10K needed to properly bias mosfet." (at 134.62 144.78 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3fd10062-f4ee-4d25-87ce-8e416f54dd78)
+  )
+  (text "- R5 and J3 are for an off-board LED" (at 166.37 181.61 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 506582b2-eff5-4f83-a165-19f8206e5290)
+  )
+  (text "Note: There are three LED / resistor pairs. Only one needs to be populated."
+    (at 166.37 170.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 699d6065-7ad7-485b-9876-c6b8c85e28ee)
+  )
+  (text "When no leak, LEAK_IN floating" (at 124.46 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7d4a164b-2a24-44b8-8e8d-45150e48a3d3)
+  )
+  (text "- R4 and D2 are for a on-board through hole LED" (at 166.37 177.8 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 944672e3-152d-4e13-abfa-b2f293ede2c8)
+  )
+  (text "Internals of U1" (at 17.78 139.7 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a38cfcb2-824a-4375-b66b-1e6c3b9db655)
+  )
+  (text "R1 biases gate to VCC, FET off LEAK_OUT pulldown, LED off"
+    (at 124.46 60.96 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a450206c-ce2a-476d-9d69-e084954f5e24)
+  )
+  (text "Sponges placed on these pin headers" (at 17.78 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a5ee2fa0-d2ff-4c5c-b56c-da07e5c6253d)
+  )
+  (text "MOSFET turns on and pulls LEAK_OUT up to 3.3V. LED turns on"
+    (at 124.46 71.12 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c7304550-9ed1-4eaf-b7fe-3773e86291b6)
+  )
+  (text "*Not near 0 ohm. Could be several hundred K ohm." (at 124.46 76.2 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid de16eabe-2a88-4e6a-a444-470944666579)
+  )
+  (text "When leak shorts* LEAK_IN to GND" (at 124.46 66.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eafa8aa7-ecf5-4d81-8a29-fe7711cd2abf)
+  )
+  (text "Short LEAK_IN to GND if they get wet" (at 17.78 58.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fd62c7ca-2e01-494b-863a-e8e486b154c2)
+  )
+
+  (label "3V3" (at 83.82 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0827684e-50a6-400a-894c-f9e9595ad224)
+  )
+  (label "LEAK_OUT" (at 160.02 114.3 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 335da4e9-1b88-417e-a5b4-cc99af841c96)
+  )
+  (label "LEAK_IN" (at 30.48 99.06 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9371da6d-e4f8-4ddf-84f0-8d4923b4da86)
+  )
+  (label "LEAK_IN" (at 29.21 71.12 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9426766a-cef8-4fd7-845b-546c7f9ed064)
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_ERJ-6ENF20R0V") (at 182.88 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 001ea387-4849-4f98-a597-71507ae5ca13)
+    (property "Reference" "R3" (at 180.086 113.284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "20" (at 180.086 117.602 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 182.88 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 182.88 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "ERJ-6ENF20R0V" (at 182.88 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e4415e31-37ac-483c-a0a7-97b46584db9a))
+    (pin "2" (uuid 27097d9c-a471-48c8-b689-cf6ce099cd95))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:GND") (at 149.86 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0541a899-1a8d-4b11-b2ca-a550d1a2037d)
+    (property "Reference" "#PWR0103" (at 149.86 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 149.86 135.89 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 149.86 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 149.86 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 995ea341-11dc-454f-b9a8-cdb3f7f0d670))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "#PWR0103") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_ERJ-6ENF1004V") (at 88.9 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0966968f-0f70-44ee-9f91-b582658725ca)
+    (property "Reference" "R1" (at 86.106 108.204 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "1M" (at 86.106 112.522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 88.9 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 88.9 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "ERJ-6ENF1004V" (at 88.9 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1fa98da4-e2a1-4d50-8709-22ab94c39446))
+    (pin "2" (uuid 06a6a1d4-8e00-48e3-9b58-46335ba55fe7))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:GND") (at 45.72 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0fe643f9-809f-4a80-ac4d-88fbe8ee5e60)
+    (property "Reference" "#PWR0102" (at 45.72 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 45.72 110.49 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 45.72 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 45.72 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid b6d85f40-5788-458b-ac97-b9d26a682122))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_2_SMTL6-RC") (at 205.74 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1269e15e-81a9-469a-9b91-034138d6edf4)
+    (property "Reference" "D1" (at 203.2 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "SMTL6-RC" (at 196.342 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "AltiumImport:SMTL6-RC" (at 205.74 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 205.74 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "SMTL6-RC" (at 205.74 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8013465d-d712-40eb-8f28-772e6bc742a1))
+    (pin "2" (uuid 159634c5-77be-44be-afe2-0bfbee09d86b))
+    (pin "3" (uuid 5e96ffb5-f821-4f32-b9c7-b62388802133))
+    (pin "4" (uuid 0b6b980d-6c61-475a-938b-ca72de6b0f7a))
+    (pin "5" (uuid ef047ea8-0625-4370-bbe7-99d0801ee611))
+    (pin "6" (uuid d13ec9af-6651-429a-98b0-1574975e36a1))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:GND") (at 83.82 134.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3598cb9a-4325-42e9-a8d6-e83e881d2099)
+    (property "Reference" "#PWR0101" (at 83.82 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 83.82 140.97 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 83.82 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 83.82 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 7e4bbaab-d122-40fa-9c66-10d5c836bc73))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_3bc925449376181038e59eaffc5286c") (at 29.21 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7651be4a-e51b-4865-8835-4583ab40bd39)
+    (property "Reference" "J1" (at 19.05 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "TSW-102-07-L-S" (at 19.05 60.96 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "AltiumImport:FP-TSW-102-07-L-S-MFG" (at 29.21 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 29.21 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "TSW-102-07-L-S" (at 29.21 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8597d43d-642b-4c9c-bcae-c30ad51999c6))
+    (pin "2" (uuid 895cc859-3a0b-4937-8fbd-b324a0743819))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_3bc925449376181038e59eaffc5286c") (at 30.48 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 77668925-863f-47ce-800b-ef607621592b)
+    (property "Reference" "J2" (at 20.32 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "TSW-102-07-L-S" (at 20.32 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "AltiumImport:FP-TSW-102-07-L-S-MFG" (at 30.48 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 30.48 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "TSW-102-07-L-S" (at 30.48 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2fb2c85f-b1a0-4c5d-bc73-6f9c462b013b))
+    (pin "2" (uuid c40fbe57-33d5-4184-ab8a-66753c9ee28b))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_2_mirrored_QS6J11TR") (at 106.68 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7cbbe3fd-66c5-499a-ac28-66672e662897)
+    (property "Reference" "U1" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "QS6J11TR" (at 114.3 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:TRANS_QS6_ROM" (at 106.68 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 106.68 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "QS6J11TR" (at 106.68 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2b4a3715-3d34-4fd3-8be3-2d5b9508ce1b))
+    (pin "2" (uuid 8846e5a9-3b19-41e6-ad66-ea3e19296ec3))
+    (pin "3" (uuid ca3e93d8-cc89-4698-b947-400918ad0e8f))
+    (pin "4" (uuid 5436971b-56e2-4f3f-9004-39a1da23e05e))
+    (pin "5" (uuid 579dc002-a947-4ee4-abc6-75eabc102399))
+    (pin "6" (uuid 37d7895d-6907-4fe8-83fd-8a739dd84ed0))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_3_BAT-HLD-005-THM") (at 83.82 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8efa988e-cac0-4e07-9422-29b1b047c41a)
+    (property "Reference" "BT1" (at 86.614 125.476 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "BAT-HLD-005-THM" (at 86.614 128.016 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "AltiumImport:BAT_BAT-HLD-005-THM" (at 83.82 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 83.82 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "BAT-HLD-005-THM" (at 83.82 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "N" (uuid 18a1f463-fa30-43b2-9290-1242f72cdd38))
+    (pin "P1" (uuid 536983fc-17a6-4e23-85e2-a074e7f2bb30))
+    (pin "P2" (uuid 008076f2-2e60-482c-97ed-cb476b573d03))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "BT1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_ERJ-6GEYJ510V") (at 181.61 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid dd1c8dc1-9c66-409c-b6d4-e17cb4a482fe)
+    (property "Reference" "R4" (at 178.816 150.114 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "51" (at 178.816 154.432 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 181.61 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 181.61 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "ERJ-6GEYJ510V" (at 181.61 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e674f92-b89d-41a3-bcc2-53c4f4093ad3))
+    (pin "2" (uuid 6a9ae5e1-1b35-4784-bc1e-a8e4ca51e567))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_RES_0.5W_THT") (at 182.88 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e4a77001-ddbd-441e-9439-361763a1c611)
+    (property "Reference" "R5" (at 180.086 92.964 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "RES_0.5W_THT" (at 180.086 97.536 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:RES_0.5W_THT" (at 182.88 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 182.88 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "" (at 182.88 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8e43d4b5-bc27-4cf0-840f-78fab7cf7ea2))
+    (pin "2" (uuid 9a3d56e9-26f2-420d-bb14-30eb8bae145e))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_1_ERJ-6ENF1002V") (at 149.86 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid eca34f80-4c42-45d1-9265-9183156d235b)
+    (property "Reference" "R2" (at 150.622 124.206 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "10k" (at 150.622 126.746 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 149.86 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 149.86 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "ERJ-6ENF1002V" (at 149.86 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5cb1ded-a027-4539-86b8-f5ccfc398c6d))
+    (pin "2" (uuid 31681539-17a0-4ef5-8acc-6cc8cccefed1))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_HLMP-EG15-UX000") (at 186.69 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f6428c65-6b69-4edc-ab92-cf09b37aa971)
+    (property "Reference" "D2" (at 188.976 145.796 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "HLMP-EG15-UX000" (at 188.976 155.829 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:LED_AVAGO_HLMP_XX15_AVA" (at 186.69 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 186.69 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "HLMP-EG15-UX000" (at 186.69 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5a58736b-eb80-46dd-98ec-4b1e5f9deedc))
+    (pin "2" (uuid 3424fa51-5e45-4149-a6d3-65477e18bb0c))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:GND") (at 220.98 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f7848ec4-9231-4ea3-a704-b3e97dae1f42)
+    (property "Reference" "#PWR0104" (at 220.98 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 220.98 165.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 220.98 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 220.98 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 236236a2-a63e-4aef-9287-81a0648a64a3))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "StandaloneLeakDetector-altium-import:root_0_1x2 Header") (at 207.01 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fc4bcf41-d14a-4d7d-8a14-c24d4e598225)
+    (property "Reference" "J3" (at 204.47 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "Header" (at 205.74 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "AltiumImport:1x2 Header" (at 207.01 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 207.01 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "" (at 207.01 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bf6d30e0-ba58-436e-b2be-1be4941d4b21))
+    (pin "2" (uuid a19d985e-8858-4dfa-8f03-f957ddba4ca7))
+    (instances
+      (project "StandaloneLeakDetector"
+        (path "/c8ccdefd-6234-4ecc-bd85-51bf1773e69d"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

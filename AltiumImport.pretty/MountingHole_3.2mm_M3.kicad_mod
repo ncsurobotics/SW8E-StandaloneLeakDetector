@@ -1,0 +1,23 @@
+(footprint "MountingHole_3.2mm_M3" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Mounting Hole 3.2mm, no annular, M3")
+  (tags "mounting hole 3.2mm no annular m3")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -4.2) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ba9037ca-b9e1-475b-8ef9-ed1e86554e95)
+  )
+  (fp_text value "MountingHole_3.2mm_M3" (at 0 4.2) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f2b9c604-8898-4287-8eab-e4fbeb256d17)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8e639fae-80d8-4ccd-9024-3f395bccc5c5)
+  )
+  (fp_circle (center 0 0) (end 3.2 0)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp d5f6d6c7-4481-41dd-b010-8bdf520cd277))
+  (fp_circle (center 0 0) (end 3.45 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 2a364293-bcfd-40a2-94e3-d500c2d8ac93))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp cba2ed34-1ecd-4c63-ab1e-5b9889f0d7ac))
+)
